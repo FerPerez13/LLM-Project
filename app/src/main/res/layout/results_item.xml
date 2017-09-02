@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/results_item"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultados de la Jornada X"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <ImageView />
+            <TextView
+                android:text=" Equipo1 "/>
+            <TextView
+                android:text=" 4-3 "/>
+            <TextView
+                android:text=" Equipo2 "/>
+            <ImageView />
+        </TableRow>
+
+        <TableRow>
+            <ImageView />
+            <TextView
+                android:text=" Equipo1 "/>
+            <TextView
+                android:text=" 4-3 "/>
+            <TextView
+                android:text=" Equipo2 "/>
+            <ImageView />
+        </TableRow>
+
+        <TableRow>
+            <ImageView />
+            <TextView
+                android:text=" Equipo1 "/>
+            <TextView
+                android:text=" 4-3 "/>
+            <TextView
+                android:text=" Equipo2 "/>
+            <ImageView />
+        </TableRow>
+
+        <TableRow>
+            <ImageView />
+            <TextView
+                android:text=" Equipo1 "/>
+            <TextView
+                android:text=" 4-3 "/>
+            <TextView
+                android:text=" Equipo2 "/>
+            <ImageView />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

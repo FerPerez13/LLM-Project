@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sales_item"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MERCADO DE FICHAJES"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <TextView
+                android:text="DEL "/>
+            <TextView
+                android:text="Nombre Apellidos "/>
+            <TextView
+                android:text="Equipo "/>
+            <TextView
+                android:text="Precio "/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="DEL "/>
+            <TextView
+                android:text="Nombre Apellidos "/>
+            <TextView
+                android:text="Equipo "/>
+            <TextView
+                android:text="Precio "/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="DEL "/>
+            <TextView
+                android:text="Nombre Apellidos "/>
+            <TextView
+                android:text="Equipo "/>
+            <TextView
+                android:text="Precio "/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="DEL "/>
+            <TextView
+                android:text="Nombre Apellidos "/>
+            <TextView
+                android:text="Equipo "/>
+            <TextView
+                android:text="Precio "/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="DEL "/>
+            <TextView
+                android:text="Nombre Apellidos "/>
+            <TextView
+                android:text="Equipo "/>
+            <TextView
+                android:text="Precio "/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
