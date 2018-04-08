@@ -6,13 +6,22 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.bananasplash.laligamanager.agregates.League;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 public class LeagueListActivity extends AppCompatActivity {
+
+    final FirebaseDatabase database = FirebaseDatabase.getInstance();
+    private DatabaseReference ref = database.getReference("leagues");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-        //final FirebaseDatabase database = FirebaseDatabase.getInstance();
-        //DatabaseReference ref = database.getReference("leagues");
+        // Read the database
+        League league = new League();
+
+        //ref.addListenerForSingleValueEvent();
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_league_list);

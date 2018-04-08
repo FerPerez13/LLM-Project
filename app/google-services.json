@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "332755143300-ksqqi8tdjam42ikm457k9r6sp5p52trj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bananasplash.laligamanager",
+            "certificate_hash": "6d40df360998b63489a70fbbe562ec4ce63132ff"
+          }
+        },
+        {
           "client_id": "332755143300-30s5dg2btnp5ml33uagloi0t66csr5v9.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332755143300-30s5dg2btnp5ml33uagloi0t66csr5v9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
