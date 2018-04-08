@@ -6,11 +6,19 @@
     android:layout_height="match_parent"
     tools:context="com.example.bananasplash.laligamanager.LeagueListActivity">
 
-
-    <Button
-        android:id="@+id/ligaButton"
+    <ScrollView
+        android:id="@+id/scrollView"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:text="Liga 1"/>
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/ligaButton"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="Liga 1"/>
+
+    </ScrollView>
+
+
 
 </LinearLayout>

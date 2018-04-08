@@ -10,6 +10,10 @@ public class LeagueListActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        //final FirebaseDatabase database = FirebaseDatabase.getInstance();
+        //DatabaseReference ref = database.getReference("leagues");
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_league_list);
 
