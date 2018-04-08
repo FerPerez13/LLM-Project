@@ -8,27 +8,6 @@
     android:orientation="vertical"
     tools:context="com.example.bananasplash.laligamanager.SignInActivity">
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="25dp">
-
-        <Button
-            android:id="@+id/googleLogin"
-            android:layout_marginRight="10dp"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:background="@drawable/google" />
-
-        <Button
-            android:id="@+id/facebookLogin"
-            android:layout_marginLeft="10dp"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:background="@drawable/facebook" />
-
-    </LinearLayout>
-
     <Space
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"

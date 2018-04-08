@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "332755143300",
+    "firebase_url": "https://laligamanager-3d0ae.firebaseio.com",
+    "project_id": "laligamanager-3d0ae",
+    "storage_bucket": "laligamanager-3d0ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332755143300:android:7aab8b3fb81ea348",
+        "android_client_info": {
+          "package_name": "com.example.bananasplash.laligamanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332755143300-30s5dg2btnp5ml33uagloi0t66csr5v9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrvd0Rd3YXbhkMtQzecWTEX5ZifdXX8bE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

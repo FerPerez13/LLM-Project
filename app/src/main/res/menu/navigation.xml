@@ -2,6 +2,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home"
+        android:title="@string/title_home" />
+    <item
         android:id="@+id/navigation_classification"
         android:icon="@drawable/clasificacion"
         android:title="Clasificación" />
@@ -11,10 +15,6 @@
         android:icon="@drawable/ball"
         android:title="Resultados" />
 
-    <item
-        android:id="@+id/navigation_home"
-        android:icon="@drawable/home"
-        android:title="@string/title_home" />
     <item
         android:id="@+id/navigation_draw"
         android:icon="@drawable/alineacion"

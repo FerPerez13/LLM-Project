@@ -43,10 +43,10 @@ public class LeagueHome extends AppCompatActivity {
                 case R.id.navigation_draw:
                     getLayoutInflater().inflate(R.layout.draw_item, content);
                     return true;
+                default:
+                    return true;
             }
-            return false;
         }
-
     };
 
     @Override
@@ -54,12 +54,12 @@ public class LeagueHome extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_league_home);
 
-        content = (FrameLayout) findViewById(R.id.content);
-        home_item = (LinearLayout) findViewById(R.id.home_item);
-        classification_item = (LinearLayout) findViewById(R.id.classification_item);
-        results_item = (LinearLayout) findViewById(R.id.results_item);
-        sales_item = (LinearLayout) findViewById(R.id.sales_item);
-        draw_item = (LinearLayout) findViewById(R.id.draw_item);
+        content = findViewById(R.id.content);
+        home_item = findViewById(R.id.home_item);
+        classification_item = findViewById(R.id.classification_item);
+        results_item = findViewById(R.id.results_item);
+        sales_item = findViewById(R.id.sales_item);
+        draw_item = findViewById(R.id.draw_item);
 
         getLayoutInflater().inflate(R.layout.home_item, content);
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);

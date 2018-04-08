@@ -3,16 +3,43 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/draw_item"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#ffffff">
 
-    <TextView
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ALINEACION PARA EL PARTIDO DE LA SEMANA"/>
+        android:text="Formación: 4-4-2"/>
 
-    <ImageView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/laligalogo"/>
+        android:layout_height="match_parent"
+        android:background="@drawable/campo">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableRow>
+                <Button android:text="PO" />
+            </TableRow>
+            <TableRow>
+                <Button android:text="LI"/>
+                <Button android:text="DF"/>
+                <Button android:text="DF"/>
+                <Button android:text="LD"/>
+            </TableRow>
+            <TableRow>
+                <Button android:text="MI"/>
+                <Button android:text="MC"/>
+                <Button android:text="MC"/>
+                <Button android:text="MD"/>
+            </TableRow>
+            <TableRow>
+                <Button android:text="DC"/>
+                <Button android:text="DC"/>
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
 
 </LinearLayout>

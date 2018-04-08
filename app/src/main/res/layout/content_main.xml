@@ -20,6 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:stretchColumns="0,1">
+
         <TableRow>
             <TextView
                 android:layout_width="wrap_content"
@@ -58,6 +59,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/login" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/loginGoogle"
+                android:background="#B71C1C"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Google"/>
+            <Button android:id="@+id/loginFacebook"
+                android:background="#1A237E"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Facebook"/>
         </TableRow>
     </TableLayout>
 
