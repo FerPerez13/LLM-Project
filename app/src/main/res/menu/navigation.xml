@@ -2,25 +2,30 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
+        android:orderInCategory="3"
         android:id="@+id/navigation_home"
         android:icon="@drawable/home"
         android:title="@string/title_home" />
     <item
+        android:orderInCategory="1"
         android:id="@+id/navigation_classification"
         android:icon="@drawable/clasificacion"
         android:title="Clasificación" />
 
     <item
+        android:orderInCategory="2"
         android:id="@+id/navigation_results"
         android:icon="@drawable/ball"
         android:title="Resultados" />
 
     <item
+        android:orderInCategory="4"
         android:id="@+id/navigation_draw"
         android:icon="@drawable/alineacion"
         android:title="Alineación" />
 
     <item
+        android:orderInCategory="5"
         android:id="@+id/navigation_sales"
         android:icon="@drawable/fichajes"
         android:title="Fichajes" />

@@ -13,6 +13,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -57,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
                 String emailT = email.getText().toString();
                 String passwordT = password.getText().toString();
 
-                register(emailT, passwordT);
+                logIn(emailT, passwordT);
             }
         });
 
@@ -72,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
                 String emailT = email.getText().toString();
                 String passwordT = password.getText().toString();
 
-                signIn(emailT, passwordT);
+                register(emailT, passwordT);
             }
         });
 
@@ -107,14 +108,25 @@ public class MainActivity extends AppCompatActivity {
                 if(task.isSuccessful()) {
                     Log.i("SESSION", "Usuario creado correctamente");
                 } else {
+                    Toast.makeText(MainActivity.this, "ERROR: No se ha podido crear el usuario", Toast.LENGTH_SHORT).show();
                     Log.i("SESSION", task.getException().getMessage()+"");
                 }
 
             }
         });
     }
-    private void signIn(String email, String password){
-        FirebaseAuth.getInstance().signInWithEmailAndPassword(email, password);
+    private void logIn(String email, String password){
+        FirebaseAuth.getInstance().signInWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+            @Override
+            public void onComplete(@NonNull Task<AuthResult> task) {
+                if(task.isSuccessful()) {
+                    Log.i("SESSION", "Usuario iniciado correctamente");
+                } else {
+                    Toast.makeText(MainActivity.this, "Usuario/Contraseña incorrectos", Toast.LENGTH_SHORT).show();
+                    Log.i("SESSION", task.getException().getMessage()+"");
+                }
+            }
+        });
     }
 
     @Override
