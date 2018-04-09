@@ -26,10 +26,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
-                android:text="@string/user"/>
+                android:text="@string/mail"/>
 
             <EditText
-                android:id="@+id/user"
+                android:id="@+id/email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 />
